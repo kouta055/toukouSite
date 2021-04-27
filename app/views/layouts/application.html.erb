@@ -16,7 +16,7 @@
     <header class="header">
       <div class="dropdown">
         <div class="dropdown-content">
-          <%= link_to 'プロフィール', profile_path %>
+          <a href="#">プロフィール</a>
           <% if user_signed_in? %>
             <%= link_to 'ログアウト', destroy_user_session_path, data: { method: 'delete' } %>
           <% else %>
