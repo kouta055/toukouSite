@@ -14,11 +14,14 @@
   <body>
     <p>投稿サイト</p>
     <header class="header">
-      <p class="header_pageTitle">新着記事</p>
       <div class="dropdown">
         <div class="dropdown-content">
-          <a href="#">プロフィール</a>
-          <a href="#">ログアウト</a>
+          <%= link_to 'プロフィール', profile_path %>
+          <% if user_signed_in? %>
+            <%= link_to 'ログアウト', destroy_user_session_path, data: { method: 'delete' } %>
+          <% else %>
+            <%= link_to 'ログイン', new_user_session_path, class: 'header_loginBtn' %>
+          <% end %>
         </div>
       </div>
     </header>
