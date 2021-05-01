@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
-
   def index
-      @title = 'ホーム'
-  end  
+       @articles = Article.all
+  end
 end
