@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   get '/main' => 'profile#main'
   get '/articles' => 'articles#new'
 
-  resources :articles, only: [:show, :new, :create, :edit, :update]
+  resources :articles, only: [:show, :new, :create, :edit, :update, :destroy]
 end
