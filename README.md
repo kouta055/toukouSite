@@ -6,7 +6,7 @@ SNSサイト
 
 ログイン機能
 
-![Gif](https://user-images.githubusercontent.com/66195678/117163832-0198f800-adff-11eb-9147-408f8defbfd2.gif)
+![Gif](https://user-images.githubusercontent.com/66195678/117164166-53da1900-adff-11eb-9468-8e2fdc850d87.gif)
 
 
 投稿機能
