@@ -11,7 +11,7 @@ SNSサイト
 
 投稿機能
 
-
+![Gif](https://user-images.githubusercontent.com/66195678/117167594-5be78800-ae02-11eb-95e2-2eb1a1df90f0.gif)
 
 削除機能
 
