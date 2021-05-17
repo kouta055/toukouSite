@@ -18,11 +18,21 @@
   <li>リンク機能</li>
 </ul>
 
+<ul> 
+  <h4>Flash</h4>
+</ul>
+
+<ul> 
+  <h4>日付の表示</h4>
+</ul>
 
 <ul> 
   <h4>rubocop</h4>
 </ul>
 
+<ul> 
+  <h4>annotate</h4>
+</ul>
 
 <ul> 
   <h4>devise</h4>
@@ -31,6 +41,7 @@
 <ul> 
   <h4>faker</h4>
 </ul>
+
 
 <h1>機能</h1>
 
