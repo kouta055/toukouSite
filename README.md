@@ -2,6 +2,36 @@
 
 <img width="585" alt="スクリーンショット 2021-05-05 0 28 31" src="https://user-images.githubusercontent.com/66195678/117028715-eebbf000-ad38-11eb-82b3-0b77f85e6d1d.png">
 
+<h1>要素</h1>
+<ul>
+  <h4>Ruby on Rails(2.7.2)</h4>
+  <h4>主に組み込んだ要素</h4>
+  <li>ログイン機能</li>
+  <li>CRUD</li>
+  <li>MVC</li>
+</ul>
+
+<ul> 
+  <h4>Ruby(2.7.2)</h4>
+  <h4>主に組み込んだ要素</h4>
+  <li>if文</li>
+  <li>リンク機能</li>
+</ul>
+
+
+<ul> 
+  <h4>rubocop</h4>
+</ul>
+
+
+<ul> 
+  <h4>devise</h4>
+</ul>
+
+<ul> 
+  <h4>faker</h4>
+</ul>
+
 <h1>機能</h1>
 
 <h4>ログイン機能</h4>
@@ -28,25 +58,4 @@
   <li>ホームボタン</li>
   <li>ログインボタン</li>
   <li>ログアウトボタン</li>
-</ul>
-
-<h1>要素</h1>
-<ul>
-  <h4>Ruby on Rails(2.7.2)</h4>
-  <h4>主に組み込んだ要素</h4>
-  <li>ログイン機能</li>
-  <li>CRUD</li>
-  <li>MVC</li>
-</ul>
-
-<ul> 
-  <h4>Ruby(2.7.2)</h4>
-  <h4>主に組み込んだ要素</h4>
-  <li>if文</li>
-  <li>リンク機能</li>
-</ul>
-
-
-<ul> 
-  <h4>rubocop導入</h4>
 </ul>
