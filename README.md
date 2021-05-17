@@ -15,7 +15,7 @@
 
 削除機能
 
-
+![削除](https://user-images.githubusercontent.com/66195678/118457972-3e38ed80-b735-11eb-8f8f-563c450c76c0.gif)
 
 編集機能
 
