@@ -12,15 +12,19 @@
   </head>
 
   <body>
-    <p>投稿サイト</p>
+    <p>BikeLife</p>
     <header class="header">
       <div class="dropdown">
         <div class="dropdown-content">
-          <%= link_to '投稿', articles_path, class: 'headerBtn' %>
           <% if current_page?(main_path)%>
             <%= link_to 'ホーム', root_path, class: 'headerBtn' %>
+            <%= link_to 'つぶやき', articles_path, class: 'headerBtn' %>
+          <% elsif current_page?(root_path) %>
+            <%= link_to 'MyBikeStory', main_path, class: 'headerBtn' %>
+            <%= link_to 'つぶやき', articles_path, class: 'headerBtn' %>
           <% else current_page?(root_path) %>
-            <%= link_to 'プロフィール', main_path, class: 'headerBtn' %>
+            <%= link_to 'ホーム', root_path, class: 'headerBtn' %>
+            <%= link_to 'MyBikeStory', main_path, class: 'headerBtn' %>
           <% end %>
           <% if user_signed_in? %>
             <%= link_to 'ログアウト', destroy_user_session_path, data: { method: 'delete' } %>
