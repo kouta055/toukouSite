@@ -1,5 +1,5 @@
 class ProfileController < ApplicationController
     def main
-        @title = 'プロフィール'
+        @title = 'MyBikeStory'
     end
 end
