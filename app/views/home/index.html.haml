@@ -1,0 +1,14 @@
+%h1= @title
+.container
+  .tabs
+    .tabs_item.active
+      つぶやき一覧
+    .tabs_item
+      タイムライン
+  - @articles.each do |article|
+    = link_to article_path(id: article.id) do
+      .card_content
+        .card_title
+          = article.title
+          %p= article.author_name
+          %p= article.display_created_at
