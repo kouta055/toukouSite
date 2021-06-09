@@ -7,3 +7,14 @@
   padding: 16px 0;
   font-weight: bold;
 }
+
+.btn-secondary {
+  background-color: aqua;
+  border: solid 1px aqua;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 16px 0;
+  font-weight: bold;
+}
