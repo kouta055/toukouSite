@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   get '/main' => 'profile#main'
   get '/articles' => 'articles#new'
 
-  resources :articles
+  resources :articles do
+    resources :comments, only: [:new, :create]
+  end
 end
