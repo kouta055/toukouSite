@@ -1,0 +1,20 @@
+{
+    "name": "bapp",
+    "description": "This is bapp",
+    "keywords": [],
+    "website": "",
+    "repository": "https://github.com/kouta055/toukouSite",
+    "env": {},
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ],
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "heroku/ruby"
+        }
+    ]
+}
+
