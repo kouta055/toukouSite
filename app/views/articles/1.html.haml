@@ -1,10 +1,7 @@
-.article#article-show{data: {article_id: @article.id}}
-  - if @article.eyecatch.attached?
-    .article_image
-      = image_tag @article.eyecatch
+.article
   %h1.article_title= @article.title
   .article_detail
-    = image_tag current_user.avatar_image
+    = image_tag 'default-avatar.png'
     %div
       %p= @article.author_name
       %p= @article.display_created_at
@@ -17,15 +14,8 @@
             = link_to '削除する', article_path(@article), data: { method: 'delete', confirm: '本当に削除してもよろしいですか？' }
   .article_content
     = @article.content
-  - if user_signed_in?
-    - if current_user.has_liked?(@article)
-      .article_heart
-        = link_to article_like_path(@article), data: { method: 'delete' } do
-          = image_tag 'heart-active.svg'
-    - else
-      .article_heart
-        = link_to article_like_path(@article), data: { method: 'post' } do
-          = image_tag 'heart.svg'
+  .article_heart
+    = image_tag 'heart.svg'
 
 .article
   %h2 コメント一覧
@@ -36,4 +26,4 @@
 .container
   = link_to new_article_comment_path(@article) do
     .btn-secondary
-      コメントを追加
+      コメントを追加1
