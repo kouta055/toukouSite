@@ -309,6 +309,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  actiontext
   annotate
   aws-sdk-s3
   better_errors
