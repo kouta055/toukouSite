@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'aws-sdk-s3', require: false
 gem 'devise'
 gem 'faker'
-gem 'hamlit'
+gem 'hamlit-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
