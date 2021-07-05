@@ -8,10 +8,10 @@
           #{user.display_name}（#{user.age || '？歳'}・#{I18n.t("enum.genders.#{user.gender || 'unknown'}")}）
         .profilePage_user_actionButton
           - if user == current_user
-            = link_to 'Edit', edit_profile_path
+            = link_to '編集', edit_profile_path
           - else
             - if current_user&.has_followed?(user)
-              = link_to 'Unfollow', account_unfollows_path(user), data: {method: 'post'}
+              %p フォロー解除
             - else
               = link_to 'Follow', account_follows_path(user), data: {method: 'post'}
       .profilePage_user_introduction
